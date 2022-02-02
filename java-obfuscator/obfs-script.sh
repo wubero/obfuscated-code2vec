@@ -3,8 +3,8 @@
 INPUT_DIR="/path/to/your/java/files"
 OUTPUT_DIR="/path/to/where/you/want/obfuscated/files"
 OBFS_TYPE="-r" # -r for random, leave as empty string for type obfuscation
-NUM_PARTITIONS=1 # You may need to increase partitions if obfuscating millions of files (e.g. java-large)
-NUM_THREADS=13
+NUM_PARTITIONS=3 # You may need to increase partitions if obfuscating millions of files (e.g. java-large)
+NUM_THREADS=6
 ARGS=""
 ###########################################################
 
